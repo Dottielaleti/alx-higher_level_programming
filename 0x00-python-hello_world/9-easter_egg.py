@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-import this
+import "The Zen of Python”, by TimPeters
