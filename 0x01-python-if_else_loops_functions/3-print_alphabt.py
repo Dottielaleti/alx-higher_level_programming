@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for chr in range(97, 123):
-    if chr != 'q' or chr != 'e':
-         print("{:s}".format(chr(char + ord("a"))), end="")
+for x in range(97, 123):
+    if chr(x) == 'q' or chr(x) == 'e':
+        continue
+    print(chr(x).format(x), end='')
